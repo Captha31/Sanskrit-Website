@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SansOnline</title>
+        <link rel = "stylesheet" href = "stylesheet.css">
+    </head>
+    <body>
+        <div class = "header">
+            <div class = "header-logo">SansOnline</div>
+            <div class = "header-list">
+                <ul>
+                    <div class = "dropdown">
+                        <li>
+                            <button onclick = "myFunction()" class = "dropbtn">Lectures</button>
+                            <div id = "myDropdown" class = "dropdown-content">
+                                <a href = "#">Lecture 1</a>
+                                <a href = "#">Lecture 2</a>
+                                <a href = "#">Lecture 3</a>
+                                <a href = "#">Lecture 4</a>
+                            </div>
+                        </li>
+                        <li>
+                            <button onclick = "myFunction()" class = "dropbtn">Tutorials</button>
+                            <div id = "myDropdown" class = "dropdown-content">
+                                <a href = "#">Tutorial 1</a>
+                                <a href = "#">Tutorial 2</a>
+                                <a href = "#">Tutorial 3</a>
+                                <a href = "#">Tutorial 4</a>
+                            </div>
+                        </li>
+                        <li>
+                            <button onclick = "myFunction()" class = "dropbtn">Discussion Forum</button>
+                            <div id = "myDropdown" class = "dropdown-content">
+                                <a href = "#">Problem 1</a>
+                                <a href = "#">Problem 2</a>
+                                <a href = "#">Problem 3</a>
+                                <a href = "#">Problem 4</a>
+                            </div>
+                        </li>
+                        <li>
+                            <button onclick = "myFunction()" class = "dropbtn">Translation</button>
+                            <div id = "myDropdown" class = "dropdown-content">
+                                <a href = "#">Translate in Hindi </a>
+                                <a href = "#">Translate in English</a>
+                                <a href = "#">Translate in Tamil</a>
+                                <a href = "#">Translate in Bengali</a>
+                            </div>
+                        </li>
+                        <li>
+                            <button onclick = "myFunction()" class = "dropbtn">Books</button>
+                            <div id = "myDropdown" class = "dropdown-content">
+                                <a href = "#">Book 1</a>
+                                <a href = "#">Book 2</a>
+                                <a href = "#">Book 3</a>
+                                <a href = "#">Book 4</a>
+                            </div>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+        <div class = "main">
+            <div class="slideshow-container">
+                <div class="mySlides1">
+                    <img src="image1.jpg">
+                </div>
+
+                <div class="mySlides1">
+                    <img src="image2.jpg">
+                </div>
+
+                <div class="mySlides1">
+                    <img src="image3.jpg">
+                </div>
+
+                <div class="mySlides1">
+                    <img src="image4.jpg">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+            </div>
+
+            <div class="slideshow-container">
+                <div class="mySlides2">
+                    <video controls>
+                        <source src="Lecture1.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="mySlides2">
+                    <video controls>
+                        <source src="Lecture2.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="mySlides2">
+                    <video controls>
+                        <source src="Lecture3.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="mySlides2">
+                    <video controls>
+                        <source src="Lecture4.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+            </div>
+        </div>
+        <script type = "text/javascript" src = "script.js"></script>
+    </body>
+</html>
